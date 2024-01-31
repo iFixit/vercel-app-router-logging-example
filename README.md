@@ -2,6 +2,10 @@
 
 Demonstrates the differences in logging behavior between the Next.js app router and pages router.
 
+The app router page is available at `/app-router`. The pages router page is available at `/pages-router`.
+
+Notice that the two `console.log()` statements in the pages router produce one log entry in Vercel's log dashboard. The app router produces one log entry for the request, and one log entry per `console.log()` statement.
+
 ## Local development
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It requires Node.js 18.18.0 and pnpm 8.12.0. `nvm use` is supported.
