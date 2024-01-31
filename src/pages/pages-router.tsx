@@ -1,6 +1,8 @@
 import Link from "next/link";
 import "../globals.css"
 
+export const getServerSideProps = () => ({});
+
 export default function Home() {
   console.log('pages router log 1');
   console.log('pages router log 2');

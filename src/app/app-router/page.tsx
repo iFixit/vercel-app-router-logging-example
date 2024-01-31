@@ -1,6 +1,8 @@
 import Link from "next/link";
 import "../../globals.css"
 
+export const dynamic ="force-dynamic";
+
 export default function Home() {
   console.log('app router log 1');
   console.log('app router log 2');
